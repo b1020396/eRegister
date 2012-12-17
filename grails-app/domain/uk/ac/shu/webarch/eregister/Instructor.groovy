@@ -4,6 +4,12 @@ class Instructor {
 
 	String name
 	String staffNumber
+
+	static mappedBy = [classes_taught_by_this_instructor: 'instructor']
+
+  	static hasMany = [classes_taught_by_this_instructor: RegClass]
+
+	
     static constraints = {
     }
 }
