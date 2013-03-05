@@ -7,7 +7,7 @@ class Course {
 	String instructorName
 	String instructorID
 	
-	static mappedBy = [classes_on_course: 'course']
+	static mappedBy = [classes_on_course: 'class_course']
 
   	static hasMany = [classes_on_course: RegClass]
 

@@ -6,9 +6,9 @@ class RegistrationSheet {
 	String studentID
 	String date
 	String courseID
-	RegClass class_regClass
+	RegClass class_regclass
 
-	static mappedBy = [registrationSheets_have_registerEntry: 'registrationSheet']
+	static mappedBy = [registrationSheets_have_registerEntry: 'class_registrationSheet']
 
   	static hasMany = [registrationSheets_have_registerEntry: RegisterEntry]
 
