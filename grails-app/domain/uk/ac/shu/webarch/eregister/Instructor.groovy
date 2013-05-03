@@ -9,7 +9,8 @@ class Instructor {
 
   	static hasMany = [classes_taught_by_this_instructor: RegClass]
 
-	
+
     static constraints = {
     }
 }
+

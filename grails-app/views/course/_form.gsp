@@ -35,19 +35,3 @@
 	<g:textField name="courseName" value="${courseInstance?.courseName}"/>
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: courseInstance, field: 'instructorID', 'error')} ">
-	<label for="instructorID">
-		<g:message code="course.instructorID.label" default="Instructor ID" />
-		
-	</label>
-	<g:textField name="instructorID" value="${courseInstance?.instructorID}"/>
-</div>
-
-<div class="fieldcontain ${hasErrors(bean: courseInstance, field: 'instructorName', 'error')} ">
-	<label for="instructorName">
-		<g:message code="course.instructorName.label" default="Instructor Name" />
-		
-	</label>
-	<g:textField name="instructorName" value="${courseInstance?.instructorName}"/>
-</div>
-

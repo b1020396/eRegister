@@ -52,24 +52,6 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${courseInstance?.instructorID}">
-				<li class="fieldcontain">
-					<span id="instructorID-label" class="property-label"><g:message code="course.instructorID.label" default="Instructor ID" /></span>
-					
-						<span class="property-value" aria-labelledby="instructorID-label"><g:fieldValue bean="${courseInstance}" field="instructorID"/></span>
-					
-				</li>
-				</g:if>
-			
-				<g:if test="${courseInstance?.instructorName}">
-				<li class="fieldcontain">
-					<span id="instructorName-label" class="property-label"><g:message code="course.instructorName.label" default="Instructor Name" /></span>
-					
-						<span class="property-value" aria-labelledby="instructorName-label"><g:fieldValue bean="${courseInstance}" field="instructorName"/></span>
-					
-				</li>
-				</g:if>
-			
 			</ol>
 			<g:form>
 				<fieldset class="buttons">
